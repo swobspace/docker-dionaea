@@ -1,0 +1,31 @@
+version: '3'
+services:
+  dionaea:
+    image: dionaea
+    build:
+      dockerfile: dionaea.Dockerfile
+      context: .
+      args:
+        buildno: 1
+#  ports:
+#    "21"
+#    "23"
+#    "42"
+#    "53"
+#    "80"
+#    "135"
+#    "443"
+#    "445"
+#    "1433"
+#    "1723"
+#    "1883"
+#    "3306"
+#    "5060"
+#    "5061"
+#    "11211"
+#    "27017"
+#    "53/udp"
+#    "69/udp"
+#    "123/udp"
+#    "1900/udp"
+#    "5060/udp"
